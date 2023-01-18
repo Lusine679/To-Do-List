@@ -1,0 +1,49 @@
+.todo-list{
+    width: 400px;
+    margin: 0 auto;
+}
+body{
+    background: #2f6d9e;
+}
+
+.list-head{
+    text-align: center;
+    background: #4ea9f5;
+    padding: 20px;
+}
+
+.list-body{
+    background: #fff;
+}
+
+.list-head .search{
+    width: 70%;
+    max-width: 250px;
+    padding: 5px;
+}
+
+.list-head .add-btn{
+    padding: 6px 15px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list{
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-body .task-list li{
+    list-style:none;
+    padding: 20px;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 20px;
+}
+
+.list-body .task-list .remove{
+    float: right;
+    cursor: pointer;
+}
